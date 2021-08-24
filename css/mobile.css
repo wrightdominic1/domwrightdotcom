@@ -1,0 +1,456 @@
+
+
+/* MOBILE STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (max-width: 600px){
+	#container{
+		width:100%; /* 280 pixels at a 320 pixel screen width (iPhones) */
+	}
+	
+	#welcome{
+		width:75%;
+	
+		top:200px;
+		background-repeat:no-repeat;
+	}
+	
+	h1{
+		font-size:36px;	
+	}
+	
+	h2{
+		font-size:45px;	
+	}
+		.location1{
+			font-size:70px;
+		}
+		
+		.location2{
+			font-size:70px;	
+
+		}
+		
+		.location3{
+			font-size:45px;	
+		
+		}
+	
+	h3{
+		font-size:30px;
+		margin-left:15px;	
+	}
+	
+	span{
+	}
+		.span1{
+			display:inherit;
+			line-height:0px;	
+		}
+		
+		.span2{
+			display:none;	
+		}
+		
+		.span3{
+			display:none;	
+		}
+		
+		.span4{
+			display:inherit;
+			line-height:0px;	
+		}
+		
+		.accordian{
+			display:none;
+		}
+	
+	#red{
+	}
+	
+		#red .previousButton{
+					margin-left:-10px;	
+				}
+				
+				#red .nextButton{
+					margin-right:10px;
+				}
+				
+				
+			/*Image title styles*/
+			.image_title {
+				width: 100%;	
+			}
+			
+			.image_title a {
+				
+				font-size: 12px;
+			}
+			
+		#okanjo{
+			width:100%;	
+		}
+			
+			#okanjoRight{
+				width:100%;	
+				height:100%;
+				max-height:470px;
+			}
+			
+			#okanjoP{
+				text-size:12px;
+				width:90%;
+				height:auto;
+				max-width:400px;
+				margin-left:auto;
+				margin-right:auto;
+				float:none;	
+			}
+			
+			#okanjo h3{
+				width:90%;	
+				padding-left:10%
+			}
+			
+			
+		#dbp{
+			top:600px;	
+			width:100%;
+			margin-left:-10px;
+		}
+		
+			#driveByLeft{
+				width:100%;	
+				height:100%;
+				max-height:470px;
+							margin-left:-10px;
+
+			}	
+		
+			#dbpP{
+				text-size:12px;
+				width:90%;
+				height:auto;
+				max-width:400px;
+				margin-left:auto;
+				margin-right:auto;
+				float:none;		
+
+			}
+			
+			#dbp h3{
+				width:90%;	
+				padding-left:10%;
+				margin-left:0px;
+			}
+	
+	
+	#prints{
+		
+	}
+	
+		#printMaking img{
+			width:auto;	
+		}
+	
+		#allcontentMobile .scroll{
+				z-index:2;
+				float:left;
+				position:relative;
+				margin-bottom:175px;
+		}
+	
+	
+	
+	#self{
+	}
+	
+			#self h3{
+				font-size:30px;	
+				margin-left:10px;
+			}
+		#logo p{
+			width: 90%;
+			max-width:400px;
+			margin-left:10px;
+			margin-right:0px;
+		}
+		
+		
+		
+	
+
+	#stickers{
+		
+		width:100%;
+		
+	}
+		#stickers p{
+			width:90%;
+			max-width:385px;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		
+		.scroll {
+			width:100%;
+			height:300px;
+			margin-left:-10px;
+			margin-right:0px;
+			
+		}
+		
+		.scroll img {
+			height:280px;
+		}
+		
+		
+	#motionGraphics2{
+		top:2000px;
+		
+		width:100%;
+		margin-left:0px;
+		margin-right:0px;
+	}	
+		#motionGraphics2 p{
+			width:90%;
+			max-width:385px;
+			margin-left:10px;
+		}
+	
+		.scroll2 {
+			width:96.5%;
+			height:300px;
+			margin-left:-10px;
+			margin-right:0px;
+		}
+		
+		.scroll2 img {
+			height:280px;
+		}
+		
+	#websiteItself{
+		top:2780px;
+		position:absolute;
+		left:0;
+		right:0;
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+		#websiteItself p{
+			width:90%;
+			max-width:385px;
+			margin-left:10px;
+		}
+		
+		
+		
+		#tabGallery{
+			width:100%;
+			border:5px black solid;
+				margin-left:-10px;
+			background-color:#fff;
+		}
+				
+				.nav-tabs > li {
+				  float: none;
+				}
+	
+				.nav-tabs > li > a {
+				  padding-right: 12px;
+				  padding-left: 12px;
+				  padding-top:12px;
+				  margin-right: 2px;
+				  height:30px;
+				  background-color:#fff;
+				}
+	
+	
+				
+				
+				#websiteItself li {
+				  line-height: 18px;
+				  border:5px solid black;
+				}
+	
+	
+				
+				.tab-content.active{
+					
+					width:100%;
+					height:200px;
+					
+					margin-left:-10px;
+					
+				}
+				
+				.tab-content.hide{
+					display: none;
+				}
+			
+		#footer{
+			width:100%;	
+		}
+			#thankyou{
+				width:75%;
+				background-repeat:no-repeat;	
+			}
+			
+			#footer p{
+				width:80%;
+				max-width:370px;
+				margin-left:auto;
+				margin-right:auto;
+				font-size:13px;
+			}
+			
+			#form{
+				position:relative;
+				width:100%;	
+			}
+			
+			#footer #form{
+				position:absolute;
+				top:750px;
+				left:0;
+				right:0;
+				margin-left:-10px;
+					margin-right:auto;
+					width:100%;
+			}
+				
+				#message{
+					width:90%;
+					display:block;
+					border:10px solid black;
+						
+				}
+				
+				.button{
+					display:block;
+					background-color:red;
+					border:black solid 10px;	
+					border-top:0px;
+					font-size:16px;
+					cursor:pointer;
+					color:white;
+				}
+				
+					.button:hover{
+						color:black;
+					}
+				
+				input{
+					font-family: 'gothammedium';
+					font-size:16px;
+					border:10px solid black;
+					padding-top:10px;
+					padding-bottom:10px;
+					padding-left:20px;
+					padding-right:20px;
+				}
+				
+					#name{
+						width:90%;	
+					}
+				
+				textarea{
+					font-family: 'gothammedium';
+					font-size:16px;
+					padding-top:10px;
+					padding-bottom:10px;
+					padding-left:20px;
+					padding-right:30px;
+					margin-top:-40px;
+					resize: none;
+					display:block;
+				}
+				
+			nav{
+				text-align:center;
+				line-height:30px;	
+				width:100%;
+			}
+				nav a{
+					margin-right:0px;	
+				}
+				nav #last{
+					margin-right:0px;	
+				}
+			#resume2{
+				background-color:red;
+				display:inline-block;
+				height:50px;
+				width:150px;
+				text-align:center;
+				line-height:50px;
+				color:white;
+				margin-bottom:75px;
+				text-decoration:none;
+				text-transform:uppercase;
+				
+			}
+			
+				#resume2:hover{
+					color:black;	
+				}
+			#allcontentMobile .swipe{
+					margin-top:220px;
+					margin-left:auto;
+					margin-right:auto;
+					border-left:10px black solid;
+					max-width:400px;
+				}	
+				
+				#allcontentMobile .previousButton{
+						margin-left:-10px;	
+					}
+					
+				#allcontentMobile .nextButton{
+					margin-right:10px;
+				}
+					
+				
+}
+
+@media only screen and (max-width: 400px){
+		#self #mySwipe8{
+			max-width:100%;
+			width:100%;			
+			margin-left:0px;						
+		}
+		
+		#self #mySwipe9{
+			max-width:100%;
+			width:100%;			
+			border-left:0px;
+		}
+		
+			#mySwipe9 .swipe-wrap{
+				border-top:10px solid black;
+				border-bottom:10px solid black;
+			}
+			
+			#self .nextButton{
+				margin-right:10px;
+			}
+			
+			#self .previousButton{
+				margin-left:-10px;
+			}
+		#stickers p{
+					margin-left:10px;
+	
+		}
+		
+		#allcontentMobile .swipe{
+			border-left:0px black solid;
+			max-width:100%;
+		}
+		
+		
+}
+
+
+
+

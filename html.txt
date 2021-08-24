@@ -1,0 +1,1209 @@
+&lt;!DOCTYPE html&gt;
+&lt;!-- 
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       
+        @@@                                             @@@@       
+        @@@                                             @@@@       
+        @@@                                             @@@@       
+        @@@                     `@@@@@.@@@              @@@@       
+        @@@            @@@@@@@#''''''''''''@@           @@@@       
+        @@@          @@''''''''''''''''''''''@@         @@@@       
+        @@@          @''''''''''''''''''''''''+@        @@@@       
+        @@@         @'''''''''''''''''''''''''''@       @@@@       
+        @@@        @'''''''''''''''''''''''''''''#      @@@@       
+        @@@       @''''''''''''''''''''''''''''''@,     @@@@       
+        @@@       #'''''''''''''''''''''''''''''''@     @@@@       
+        @@@      @'''''''''''''''''''''''''''''''''@    @@@@       
+        @@@     @'''''''''''''''''''''''''''''''''''#   @@@@       
+        @@@     @'''''''''''''''''''''''''''''''''''@   @@@@       
+        @@@    @''''''''''''''''''''''''''''''''''''@   @@@@       
+        @@@    @''''''''''''''''''''''''''''''''''''#:  @@@@       
+        @@@    ''''''''''''''''''''''''. ''''''''''''@  @@@@       
+        @@@   @'''''''''''''''            '''''''''''@  @@@@       
+        @@@   +''''''''''''''               '''''''''@, @@@@       
+        @@@  @''''''''''''''                  ''''''''@ @@@@       
+        @@@  @'''''''''''''                   ''''''''@ @@@@       
+        @@@  @''''''''''''                     '''''''@ @@@@       
+        @@@  @''''''''''''                      ''''''@ @@@@       
+        @@@  @'''''''''''                       ''''''` @@@@       
+        @@@  @''''' '''''                       ''''''@ @@@@       
+        @@@  @''''' ''''                        ''''''@ @@@@       
+        @@@  @'''''                             ;'''''' @@@@       
+        @@@  @'''''                              '''''' @@@@       
+        @@@  @'''''        `+                    ''''': @@@@       
+        @@@  @''''      @@   @#     @@@@#@        ''''  @@@@       
+        @@@  @''''      ,@@@@ @    @  @@@         ''''  @@@@       
+        @@@  @''''            @     @@@@@        ;'''   @@@@       
+        @@@  @''''            @                  '''    @@@@       
+        @@@   @''',          @                   ''     @@@@       
+        @@@   @ '''          @                          @@@@       
+        @@@     '''                                ;    @@@@       
+        @@@      ''                                     @@@@       
+        @@@      ''                               @     @@@@       
+        @@@       '        @                   @@@      @@@@       
+        @@@     ,                                       @@@@       
+        @@@      ,'                     ,;              @@@@       
+        @@@       @     @  @@@   ;@@      @             @@@@       
+        @@@       @    @       @@         `             @@@@       
+        @@@       :    @               ;  @             @@@@       
+        @@@        @   # @@@@@@@ :   @@@                @@@@       
+        @@@        @     @@@@@@@@@;  @@@                @@@@       
+        @@@         @     @@         @@                 @@@@       
+        @@@                @@                           @@@@       
+        @@@                 @                           @@@@       
+        @@@                @ @ @                        @@@@       
+        @@@                 @                           @@@@       
+        @@@                   @@@.       @              @@@@       
+        @@@                                             @@@@       
+        @@@             @                               @@@@       
+        @@@              :             @                @@@@       
+        @@@                                             @@@@       
+        @@@                                             @@@@       
+        @@@                                             @@@@       
+        @@@                 @. `:#                      @@@@       
+        @@@                                             @@@@       
+        @@@                                             @@@@       
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       
+
+
+--&gt;
+
+&lt;html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#"&gt;
+    &lt;head&gt;
+        &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /&gt;
+        &lt;meta name="viewport" content="width=device-width" /&gt;
+        &lt;meta property="og:image" content="preview.png" /&gt;
+        
+        &lt;title&gt;DomWright.com&lt;/title&gt;
+        
+        &lt;link href="css/reset.css" rel="stylesheet" type="text/css" /&gt;
+        &lt;link href="css/styles.css" rel="stylesheet" type="text/css" /&gt;
+        &lt;link href="css/mobile.css" rel="stylesheet" type="text/css" /&gt;
+        &lt;link href="css/tablet.css" rel="stylesheet" type="text/css" /&gt;
+        &lt;link href="css/Gallery6Style.css" rel="stylesheet" type="text/css" /&gt;
+        
+        &lt;link href="css/colorbox.css" rel="stylesheet" type="text/css" /&gt;
+        
+        
+        &lt;script type="text/javascript" src="js/jquery.min.js"&gt;&lt;/script&gt;
+        &lt;script type="text/javascript" src="js/jquery.easing.1.3.js" &gt;&lt;/script&gt;
+        &lt;script type="text/javascript" src="js/jquery.mobile.custom.min.js"&gt;&lt;/script&gt;
+        &lt;script type="text/javascript" src="js/TweenMax.min.js"&gt;&lt;/script&gt;
+        &lt;script type="text/javascript" src="js/jquery.colorbox-min.js"&gt;&lt;/script&gt;
+
+	
+
+    &lt;/head&gt;
+    &lt;body&gt;
+    		 &lt;div id="left"&gt;&lt;/div&gt;
+            &lt;div id="right"&gt;&lt;/div&gt;
+            &lt;div class="top"&gt;&lt;/div&gt;
+            &lt;div class="bottom"&gt;&lt;/div&gt;
+            &lt;div id="container"&gt;
+            	&lt;div id="intro"&gt;
+              		&lt;h1&gt;DOMWRIGHT&lt;br/&gt;.com&lt;/h1&gt;  
+                  &lt;a href="#red"&gt;&lt;div id="welcome"&gt;&lt;/div&gt;&lt;/a&gt;
+              &lt;/div&gt;
+              
+              	&lt;h2 class="location1"&gt;DESIGN&lt;/h2&gt; 
+
+            	&lt;div id="red"&gt;
+
+
+                  &lt;div class="redSection" id="webDesign"&gt;
+                  	&lt;h3&gt;webdesign&lt;/h3&gt;
+                  	&lt;div class="accordian accordian1"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a href="http://www.dominicsjavascriptlabs.com/" target="_blank"&gt;DominicsJavascriptLabs.com&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a href="http://www.dominicsjavascriptlabs.com/" target="_blank"&gt;
+                                        &lt;img src="images/websites/javascriptLabs.png"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a href="http://www.domwright.com/ComingSoon/Dev/index.html" target="_blank"&gt;RobertFraher.com Coming Soon&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a href="http://www.domwright.com/ComingSoon/Dev/index.html" target="_blank"&gt;
+                                        &lt;img src="images/websites/comingSoon.png"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a href="http://www.40candle.com" target="_blank"&gt;40Candle.com&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a href="http://www.40candle.com" target="_blank"&gt;
+                                        &lt;img src="images/websites/40candle.png"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a href="http://www.hiphophistoryorigins.com/" target="_blank"&gt;HipHopHistoryOrigins.com&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a href="http://www.hiphophistoryorigins.com/" target="_blank"&gt;
+                                        &lt;img src="images/websites/hiphop.png"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a href="http://www.dominicstop10.com/" target="_blank"&gt;DominicsTop10.com&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a href="http://www.dominicstop10.com/" target="_blank"&gt;
+                                        &lt;img src="images/websites/top10.png"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                               &lt;li&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a href="http://www.athomescreenprinting.com/" target="_blank"&gt;AtHomeScreenPrinting.com&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a href="http://www.athomescreenprinting.com/" target="_blank"&gt;
+                                        &lt;img src="images/websites/athomescreenprinting.png"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                               
+                            &lt;/ul&gt;
+                            
+                      &lt;/div&gt;
+                 	  &lt;!--&lt;div class="scroll"&gt;
+                        &lt;a href="http://www.athomescreenprinting.com/" target="_blank"&gt;
+                                        &lt;img src="images/websites/athomescreenprinting.png"/&gt;
+                                    &lt;/a&gt;
+                       &lt;a href="http://www.dominicstop10.com/" target="_blank"&gt;
+                                        &lt;img src="images/websites/top10.png"/&gt;
+                                    &lt;/a&gt;
+                        &lt;a href="http://www.hiphophistoryorigins.com/" target="_blank"&gt;
+                                        &lt;img src="images/websites/hiphop.png"/&gt;
+                                    &lt;/a&gt;
+                       &lt;a href="http://www.40candle.com" target="_blank"&gt;
+                                        &lt;img src="images/websites/40candle.png"/&gt;
+                                    &lt;/a&gt;
+                                    
+                       &lt;a href="http://www.domwright.com/ComingSoon/Dev/index.html" target="_blank"&gt;
+                                        &lt;img src="images/websites/comingSoon.png"/&gt;
+                                    &lt;/a&gt;
+                       &lt;a href="http://www.dominicsjavascriptlabs.com/" target="_blank"&gt;
+                                        &lt;img src="images/websites/javascriptLabs.png"/&gt;
+                                    &lt;/a&gt;
+                    &lt;/div&gt;--&gt;
+                    
+                    &lt;div id='mySwipe' class='swipe span1'&gt;
+                      &lt;div class='swipe-wrap'&gt;
+                        &lt;div&gt;
+                            &lt;a href="http://www.athomescreenprinting.com/" target="_blank"&gt;
+                                &lt;img src="images/websites/athomescreenprinting.png"/&gt;
+                             &lt;/a&gt;
+                             &lt;div class="image_title"&gt;
+                                 &lt;a href="http://www.athomescreenprinting.com/" target="_blank"&gt;
+                                    AtHomeScreenPrinting.com
+                                 &lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div&gt;
+                            &lt;a href="http://www.dominicstop10.com/" target="_blank"&gt;
+                                &lt;img src="images/websites/top10.png"/&gt;
+                             &lt;/a&gt;
+                             &lt;div class="image_title"&gt;
+                                 &lt;a href="http://www.dominicstop10.com/" target="_blank"&gt;
+                                    DominicsTop10.com
+                                 &lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div&gt;
+                            &lt;a href="http://www.hiphophistoryorigins.com/" target="_blank"&gt;
+                                &lt;img src="images/websites/hiphop.png"/&gt;
+                             &lt;/a&gt;
+                             &lt;div class="image_title"&gt;
+                                 &lt;a href="http://www.hiphophistoryorigins.com/" target="_blank"&gt;
+                                    HipHopHistoryOrigins.com
+                                 &lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div&gt;
+                            &lt;a href="http://www.40candle.com" target="_blank"&gt;
+                                &lt;img src="images/websites/40candle.png"/&gt;
+                             &lt;/a&gt;
+                             &lt;div class="image_title"&gt;
+                                 &lt;a href="http://www.40candle.com" target="_blank"&gt;
+                                    40Candle.com
+                                 &lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div&gt;
+                            &lt;a href="http://www.domwright.com/ComingSoon/Dev/index.html" target="_blank"&gt;
+                                &lt;img src="images/websites/comingSoon.png"/&gt;
+                             &lt;/a&gt;
+                             &lt;div class="image_title"&gt;
+                                 &lt;a href="http://www.domwright.com/ComingSoon/Dev/index.html" target="_blank"&gt;
+                                    RobertFraher.com Coming Soon
+                                 &lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div&gt;
+                            &lt;a href="http://www.dominicsjavascriptlabs.com/" target="_blank"&gt;
+                                &lt;img src="images/websites/javascriptLabs.png"/&gt;
+                             &lt;/a&gt;
+                             &lt;div class="image_title"&gt;
+                                 &lt;a href="http://www.dominicsjavascriptlabs.com/" target="_blank"&gt;
+                                    DominicsJavaScriptLabs.com
+                                 &lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        
+                      &lt;/div&gt;
+                      &lt;a href="#" class="myButtons previousButton" id="previousButton"&gt;&lt;/a&gt;
+                      &lt;a href="#" class="myButtons nextButton" id="nextButton"&gt;&lt;/a&gt;
+                    &lt;/div&gt;
+					  
+                 	&lt;/div&gt;
+                  
+                  &lt;div class="redSection" id="motionGraphics"&gt;
+                  	&lt;h3&gt;video &lt;span class="span1"&gt;&lt;br/&gt;&lt;/span&gt;&amp; &lt;span class="span4"&gt;&lt;br/&gt;&lt;/span&gt;motion graphics&lt;/h3&gt;
+                 		 &lt;div class="accordian accordian2"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group1" href="http://www.youtube.com/embed/Ys1bo9-VMS4?rel=0&amp;amp;wmode=transparent"&gt;IGN.com Bumper&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group2" href="http://www.youtube.com/embed/Ys1bo9-VMS4?rel=0&amp;amp;wmode=transparent"&gt;
+                                        &lt;img src="images/video/ign.png"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group1" href="https://www.youtube.com/embed/b0U6NmYMYT8?rel=0&amp;amp;wmode=transparent"&gt;Toy Machine Skate Ad&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group2" href="https://www.youtube.com/embed/b0U6NmYMYT8?rel=0&amp;amp;wmode=transparent"&gt;
+                                        &lt;img src="images/video/toymachine.png"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group1" href="https://www.youtube.com/embed/m9Dud1PCUjY?rel=0&amp;amp;wmode=transparent"&gt;They Live Title Sequence&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group2" href="https://www.youtube.com/embed/m9Dud1PCUjY?rel=0&amp;amp;wmode=transparent"&gt;
+                                        &lt;img src="images/video/theylive.png"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group1" href="https://www.youtube.com/embed/N_G3YuhgAdw?rel=0&amp;amp;wmode=transparent"&gt;Sriracha Ad&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group2" href="https://www.youtube.com/embed/N_G3YuhgAdw?rel=0&amp;amp;wmode=transparent"&gt;
+                                        &lt;img src="images/video/sriracha.png"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group1" href="https://www.youtube.com/embed/R5puYGmp4cU?rel=0&amp;amp;wmode=transparent"&gt;I'm First Mini-Documentary&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group2" href="https://www.youtube.com/embed/R5puYGmp4cU?rel=0&amp;amp;wmode=transparent"&gt;
+                                        &lt;img src="images/video/imfirst.png"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                        &lt;!--&lt;div class="scroll span1"&gt;
+                            &lt;a class="group2" href="http://www.youtube.com/embed/Ys1bo9-VMS4?rel=0&amp;amp;wmode=transparent"&gt;
+                                        &lt;img src="images/video/ign.png"/&gt;
+                                    &lt;/a&gt;
+                                
+                            &lt;a class="group2" href="https://www.youtube.com/embed/b0U6NmYMYT8?rel=0&amp;amp;wmode=transparent"&gt;
+                                        &lt;img src="images/video/toymachine.png"/&gt;
+                                    &lt;/a&gt;
+                               
+                            &lt;a class="group2" href="https://www.youtube.com/embed/m9Dud1PCUjY?rel=0&amp;amp;wmode=transparent"&gt;
+                                        &lt;img src="images/video/theylive.png"/&gt;
+                                    &lt;/a&gt;
+                                
+                            &lt;a class="group2" href="https://www.youtube.com/embed/N_G3YuhgAdw?rel=0&amp;amp;wmode=transparent"&gt;
+                                        &lt;img src="images/video/sriracha.png"/&gt;
+                                    &lt;/a&gt;
+                                
+                            &lt;a class="group2" href="https://www.youtube.com/embed/R5puYGmp4cU?rel=0&amp;amp;wmode=transparent"&gt;
+                                        &lt;img src="images/video/imfirst.png"/&gt;
+                                    &lt;/a&gt;
+                        &lt;/div&gt;--&gt;
+                        
+                        &lt;div id='mySwipe2' class='swipe span1'&gt;
+                          &lt;div class='swipe-wrap'&gt;
+                            &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group1" href="http://www.youtube.com/embed/Ys1bo9-VMS4?rel=0&amp;amp;wmode=transparent"&gt;IGN.com Bumper&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group2" href="http://www.youtube.com/embed/Ys1bo9-VMS4?rel=0&amp;amp;wmode=transparent"&gt;
+                                        &lt;img src="images/video/ign.png"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group1" href="https://www.youtube.com/embed/b0U6NmYMYT8?rel=0&amp;amp;wmode=transparent"&gt;Toy Machine Skate Ad&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group2" href="https://www.youtube.com/embed/b0U6NmYMYT8?rel=0&amp;amp;wmode=transparent"&gt;
+                                        &lt;img src="images/video/toymachine.png"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group1" href="https://www.youtube.com/embed/m9Dud1PCUjY?rel=0&amp;amp;wmode=transparent"&gt;They Live Title Sequence&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group2" href="https://www.youtube.com/embed/m9Dud1PCUjY?rel=0&amp;amp;wmode=transparent"&gt;
+                                        &lt;img src="images/video/theylive.png"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group1" href="https://www.youtube.com/embed/N_G3YuhgAdw?rel=0&amp;amp;wmode=transparent"&gt;Sriracha Ad&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group2" href="https://www.youtube.com/embed/N_G3YuhgAdw?rel=0&amp;amp;wmode=transparent"&gt;
+                                        &lt;img src="images/video/sriracha.png"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group1" href="https://www.youtube.com/embed/R5puYGmp4cU?rel=0&amp;amp;wmode=transparent"&gt;I'm First Mini-Documentary&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group2" href="https://www.youtube.com/embed/R5puYGmp4cU?rel=0&amp;amp;wmode=transparent"&gt;
+                                        &lt;img src="images/video/imfirst.png"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                            
+                            
+                          &lt;/div&gt;
+                          &lt;a href="#" class="myButtons previousButton" id="previousButton2"&gt;&lt;/a&gt;
+                          &lt;a href="#" class="myButtons nextButton" id="nextButton2"&gt;&lt;/a&gt;
+                        &lt;/div&gt;
+                  &lt;/div&gt;
+                  
+                  &lt;div class="redSection" id="stuff"&gt;
+                  	&lt;h3&gt;objects&lt;/h3&gt;
+                    	&lt;div class="accordian accordian3"&gt;
+                            &lt;ul&gt;
+                                &lt;li&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group3" href="7inch.html"&gt;7 Inch Initiative&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group4" href="7inch.html"&gt;
+                                        &lt;img src="images/stuff/7InchThumb.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group3" href="halftone.html"&gt;Halftone Index Publication&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group4" href="halftone.html"&gt;
+                                        &lt;img src="images/stuff/halftoneThumb.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group3" href="CosmicAle.html"&gt;Cosmic Ale Branding Concept&lt;span class="span2"&gt; Package&lt;/span&gt;&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group4" href="CosmicAle.html"&gt;
+                                        &lt;img src="images/stuff/CAThumb.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group3" href="soap.html"&gt;Ajax Soap Bottle Repackaging&lt;span class="span2"&gt; Concept&lt;/span&gt;&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group4" href="soap.html"&gt;
+                                        &lt;img src="images/stuff/soapThumb.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/li&gt;
+                                
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;!--&lt;div class="scroll span1"&gt;
+                        	   &lt;a class="group4" href="soap.html"&gt;
+                                        &lt;img src="images/stuff/soapThumb.jpg"/&gt;
+                                    &lt;/a&gt;
+                            &lt;a class="group4" href="CosmicAle.html"&gt;
+                                        &lt;img src="images/stuff/CAThumb.jpg"/&gt;
+                                    &lt;/a&gt;
+                            &lt;a class="group4" href="halftone.html"&gt;
+                                        &lt;img src="images/stuff/halftoneThumb.jpg"/&gt;
+                                    &lt;/a&gt;                
+                            &lt;a class="group4" href="7inch.html"&gt;
+                                        &lt;img src="images/stuff/7InchThumb.jpg"/&gt;
+                                    &lt;/a&gt;
+                              
+                        &lt;/div&gt;--&gt;
+                        
+                        &lt;div id='mySwipe3' class='swipe span1'&gt;
+                      	&lt;div class='swipe-wrap'&gt;
+                       		 
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group3" href="soap.html"&gt;Ajax Soap Bottle Repackaging&lt;span class="span2"&gt; Concept&lt;/span&gt;&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group4" href="soap.html"&gt;
+                                        &lt;img src="images/stuff/soapThumb.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group3" href="CosmicAle.html"&gt;Cosmic Ale Branding Concept&lt;span class="span2"&gt; Package&lt;/span&gt;&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group4" href="CosmicAle.html"&gt;
+                                        &lt;img src="images/stuff/CAThumb.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group3" href="halftone.html"&gt;Halftone Index Publication&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group4" href="halftone.html"&gt;
+                                        &lt;img src="images/stuff/halftoneThumb.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group3" href="7inch.html"&gt;7 Inch Initiative&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group4" href="7inch.html"&gt;
+                                        &lt;img src="images/stuff/7InchThumb.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                        
+                        
+                          &lt;/div&gt;
+                          &lt;a href="#" class="myButtons previousButton" id="previousButton3"&gt;&lt;/a&gt;
+                          &lt;a href="#" class="myButtons nextButton" id="nextButton3"&gt;&lt;/a&gt;
+                        &lt;/div&gt;
+                        
+                  &lt;/div&gt; 
+                  
+                  &lt;div class="redSection" id="internships"&gt;
+                  	&lt;h3&gt;internships&lt;/h3&gt;
+                    	
+                     &lt;div id="okanjo"&gt;
+                      	&lt;div id="okanjoRight"&gt;
+                            		&lt;h3&gt;Okanjo.com&lt;/h3&gt;
+                            		&lt;p id="okanjoP"&gt;My first time working in an office. Okanjo.com was a startup ecommerce marketplace.&lt;br/&gt;&lt;br/&gt;During my time there the first thing I'd do is create a front page banner for the next day, come up with a headline, and search for products to feature in the collection related to the banner I've created. I'd try to get all that done in the first hour of work. &lt;a href="banners.html" id="banners"&gt;see banners&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;Long term projects included creating email templates, aiding the lead designer in writing the brand manual and defining the visual style of the website. I also participated in whatever daily operations and objectives I could participate in so I could learn as much as I could about working in an office environment.&lt;br/&gt;&amp;nbsp;&lt;/p&gt;
+                           &lt;/div&gt;	
+                            &lt;div id="galleryLeft" class="span3"&gt;
+                      
+                               &lt;div id='lg-wrap' class='current-image-wrapper'&gt;
+                                &lt;img id='large' data-idx='0' src='images/internships/OkanjoOffice.jpg'&gt;
+                              &lt;/div&gt;
+                             
+                              &lt;ul id='thumbnails' class='thumbnails'&gt;
+                                &lt;li&gt;
+                                  &lt;a href='images/internships/OkanjoOffice.jpg'&gt;
+                                    &lt;img class="thumbnailIMG" data-idx='0' src='images/internships/OkanjoOffice.jpg'&gt;
+                                  &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                  &lt;a href='images/internships/frontpage.jpg'&gt;
+                                    &lt;img class="thumbnailIMG" data-idx='1' src='images/internships/frontpage.jpg'&gt;
+                                  &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                  &lt;a href='images/internships/email.jpg'&gt;
+                                    &lt;img class="thumbnailIMG" data-idx='2' src='images/internships/email.jpg'&gt;
+                                  &lt;/a&gt;
+                                &lt;/li&gt;
+                              &lt;/ul&gt;
+                        	   &lt;/div&gt;
+                            
+                       &lt;/div&gt;
+                       
+                      
+                      &lt;div id="dbp"&gt;
+                      	&lt;div id="driveByLeft"&gt;
+                        		&lt;h3&gt;DriveByPress&lt;/h3&gt;
+                            
+                            	&lt;p id="dbpP"&gt;For the past couple summers and everywhere in-between I've been working for the Drive By Press. They're master printmakers with a shop in Brooklyn, New York. They've devised a way to mobilize woodblock printmaking to make it accessible to print at academic locations all across America.&lt;br/&gt;&lt;br/&gt;My role with the Drive By Press was not only to live print shirts for customers but to also take care of the transactions and keep track of inventory. As an event marketing representative I've live printed from places around campus to Lollapalooza in Chicago. Beyond live printing I was also a print assistant during workshops and I designed and printed shirts for local businesses.&lt;br/&gt;&amp;nbsp;&lt;/p&gt;
+                         &lt;/div&gt;
+                       	&lt;div id="galleryRight" class="span3"&gt;
+                      
+                               &lt;div id='lg-wrap2' class='current-image-wrapper2'&gt;
+                                &lt;img id='large2' data-idx='0' src='images/internships/lolla.jpg'&gt;
+                              &lt;/div&gt;
+                             
+                              &lt;ul id='thumbnails2' class='thumbnails2'&gt;
+                                &lt;li&gt;
+                                  &lt;a href='images/internships/lolla.jpg'&gt;
+                                    &lt;img data-idx='0' src='images/internships/lolla.jpg'&gt;
+                                  &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                  &lt;a href='images/internships/greg.jpg'&gt;
+                                    &lt;img data-idx='1' src='images/internships/greg.jpg'&gt;
+                                  &lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                  &lt;a href='images/internships/workshop1.jpg'&gt;
+                                    &lt;img data-idx='2' src='images/internships/workshop1.jpg'&gt;
+                                  &lt;/a&gt;
+                                &lt;/li&gt;
+                              &lt;/ul&gt;
+                        	   &lt;/div&gt;     
+                       &lt;/div&gt;
+                       
+                  &lt;/div&gt; 
+              &lt;/div&gt;
+              
+
+            	&lt;div id="black"&gt;
+                  &lt;h2 class="location2"&gt;PRINTS&lt;/h2&gt;
+
+               	&lt;div id="printMaking"&gt;
+                    &lt;div id="allcontent" class="span2"&gt;
+                   	
+                    	&lt;div id="maincontent2"&gt;
+                            &lt;div class="portfolio2"&gt;
+                                &lt;img src="images/prints/1-3.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt2"&gt;"National Anthem"&lt;br/&gt;9'' x 17'' Screen Print, 2013&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="portfolio2"&gt;
+                                &lt;img src="images/prints/1-1.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt2"&gt;"What You Want"&lt;br/&gt;14'' x 11'' Screen Print, 2013&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="portfolio2"&gt;
+                                &lt;img src="images/prints/1-2.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt2"&gt;"What You Need"&lt;br/&gt;14'' x 11'' Screen Print, 2013&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="portfolio2"&gt;
+                                &lt;img src="images/prints/1-4.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt2"&gt;"Creeper Dom"&lt;br/&gt;18'' x 14'' Screen Print, 2013&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="portfolio2"&gt;
+                                &lt;img src="images/prints/1-5.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt2"&gt;"King Dom"&lt;br/&gt;18'' x 14'' Screen Print, 2013&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="portfolio2"&gt;
+                                &lt;img src="images/prints/1-6.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt2"&gt;"You Are What You Eat"&lt;br/&gt;11'' x 8'' Screen Print, 2013&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="portfolio2"&gt;
+                                &lt;img src="images/prints/1-7.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt2"&gt;"State of Mind"&lt;br/&gt;10'' x 8'' Screen Print, 2013&lt;/span&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                  
+                      &lt;div id="maincontent"&gt;
+                            
+                            &lt;div class="portfolio"&gt;
+                                &lt;img src="images/prints/4-8.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt"&gt;"Side Characters of Spongebob"&lt;br/&gt;6'' x 5'' Window Screen Print, 2014&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="portfolio"&gt;
+                                &lt;img src="images/prints/2-2.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt"&gt;"Astronaut with a 40"&lt;br/&gt;15'' x 9'' Woodcut, 2014&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="portfolio"&gt;
+                                &lt;img src="images/prints/2-1.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt"&gt;"Brave New World"&lt;br/&gt;11'' x 14'' Screen Print, 2014&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="portfolio"&gt;
+                                &lt;img src="images/prints/2-5.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt"&gt;"Labours of Iron Mike"&lt;br/&gt;15'' x 11'' Screen Print, 2014 &lt;a href="ironMike.html" id="ironMike"&gt;see more&lt;/a&gt;.&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="portfolio"&gt;
+                                &lt;img src="images/prints/2-3.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt"&gt;"Black Milk Gig Poster"&lt;br/&gt;20'' x 16'' Screen Print, 2014&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="portfolio"&gt;
+                                &lt;img src="images/prints/2-4.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt"&gt;"Sasquatch on a Bike"&lt;br/&gt;4' x 3' Woodcut, 2014 &lt;a href="sasquatch.html" id="sasquatch"&gt;see more&lt;/a&gt;.&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="portfolio"&gt;
+                                &lt;img src="images/prints/fma1-1.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt"&gt;"Aquemini Gallery Series"&lt;br/&gt;19'' x 12.5'' Screen Prints, 2014 &lt;a href="aquemini.html" id="aquemini"&gt;see more&lt;/a&gt;&lt;/span&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                      &lt;div id="maincontent4"&gt;
+                      		&lt;div class="portfolio4"&gt;
+                                &lt;img src="images/prints/fma2-1a.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt4"&gt;"Colby Poster Tribute Series"&lt;br/&gt;Screen Prints, 2015 &lt;a href="colby.html" id="colby"&gt;see more&lt;/a&gt;.&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="portfolio4"&gt;
+                                &lt;img src="images/prints/3-3.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt4"&gt;"Saint Logan"&lt;br/&gt;18'' x 24'' Screen Print, 2015&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="portfolio4"&gt;
+                                &lt;img src="images/prints/3-7.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt4"&gt;"Cookie Cookie House"&lt;br/&gt;20'' x 16'' Mono Print, 2015&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="portfolio4"&gt;
+                                &lt;img src="images/prints/3-2.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt4"&gt;"Soltre Skateboard"&lt;br/&gt;8'' x 32'' Screen Print, 2015 &lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="portfolio4"&gt;
+                                &lt;img src="images/prints/3-6.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt4"&gt;"Superpower"&lt;br/&gt;13'' x 24'' Screen Print, 2015&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="portfolio4"&gt;
+                                &lt;img src="images/prints/3-4.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt4"&gt;"National Anthem"&lt;br/&gt;Poster Size 14'' x 24'' Screen Print, 2015&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="portfolio4"&gt;
+                                &lt;img src="images/prints/3-5.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt4"&gt;"Sasquatch on a Bike"&lt;br/&gt;Shirt Size 20'' x 14'' Screen Print, 2015&lt;/span&gt;
+                            &lt;/div&gt;
+                            
+                        
+                    		&lt;/div&gt;
+                            
+                      &lt;div id="maincontent3"&gt;
+                            &lt;div class="portfolio3"&gt;
+                                &lt;img src="images/prints/4-1.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt3"&gt;"Pho Funk - Bull Dog"&lt;br/&gt;Drawing by Sam BK, 24'' x 18'' Screen Print, 2015&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="portfolio3"&gt;
+                                &lt;img src="images/prints/4-2.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt3"&gt;"Pho Funk - Lion"&lt;br/&gt;Drawing by Sam BK, 24'' x 18'' Screen Print, 2015&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="portfolio3"&gt;
+                                &lt;img src="images/prints/4-3.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt3"&gt;"Between the Bun"&lt;br/&gt;14'' x 11'' Screen Print on Mylar, 2015&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="portfolio3"&gt;
+                                &lt;img src="images/prints/4-4.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt3"&gt;"Padre Pio"&lt;br/&gt;20'' x 16'' Mono Print, 2015&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;div class="portfolio3"&gt;
+                                &lt;img src="images/prints/4-9.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt3"&gt;"School Spirit Skull"&lt;br/&gt;15'' x 15'' Woodcut, 2015&lt;/span&gt;
+                            &lt;/div&gt;
+                             &lt;div class="portfolio3"&gt;
+                                &lt;img src="images/prints/4-5.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt3"&gt;"Power Ranger Lowrider"&lt;br/&gt;17'' x 14'' Screen Print, 2015&lt;/span&gt;
+                            &lt;/div&gt;
+                             &lt;div class="portfolio3"&gt;
+                                &lt;img src="images/prints/4-10.jpg" alt="Portfolio img"&gt;&lt;br&gt;
+                                &lt;span class="txt3"&gt;"GluePac"&lt;br/&gt;32'' x 19'' Screen Print, 2015&lt;/span&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                	
+                   &lt;/div&gt;
+                   	
+                    &lt;div id="allcontentMobile" class="span1"&gt;
+                    	&lt;!--&lt;div class="scroll"&gt;
+                      	&lt;a href="images/prints/1-3.jpg" class="group5"&gt;&lt;img src="images/prints/1-3.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                         &lt;a href="images/prints/1-1.jpg" class="group5"&gt;&lt;img src="images/prints/1-1.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                         &lt;a href="images/prints/1-2.jpg" class="group5"&gt;&lt;img src="images/prints/1-2.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                         &lt;a href="images/prints/1-4.jpg" class="group5"&gt;&lt;img src="images/prints/1-4.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                         &lt;a href="images/prints/1-5.jpg" class="group5"&gt;&lt;img src="images/prints/1-5.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                         &lt;a href="images/prints/1-6.jpg" class="group5"&gt;&lt;img src="images/prints/1-6.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                         &lt;a href="images/prints/1-7.jpg" class="group5"&gt;&lt;img src="images/prints/1-7.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                      &lt;/div&gt;--&gt;
+                      
+                      &lt;div id='mySwipe4' class='swipe span1'&gt;
+                      	&lt;div class='swipe-wrap'&gt;
+                       		 	&lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/1-3.jpg"&gt;"National Anthem" &lt;span class="span3"&gt;9'' x 17'' &lt;/span&gt;Screen Print, 2013&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/1-3.jpg"&gt;
+                                        &lt;img src="images/prints/1-3.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/1-1.jpg"&gt;"What You Want" &lt;span class="span3"&gt;14'' x 11'' &lt;/span&gt;Screen Print, 2013&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/1-1.jpg"&gt;
+                                        &lt;img src="images/prints/1-1.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/1-2.jpg"&gt;"What You Need" &lt;span class="span3"&gt;14'' x 11'' &lt;/span&gt;Screen Print, 2013&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/1-2.jpg"&gt;
+                                        &lt;img src="images/prints/1-2.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/1-4.jpg"&gt;"Creeper Dom" &lt;span class="span3"&gt;18'' x 14'' &lt;/span&gt;Screen Print, 2013&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/1-4.jpg"&gt;
+                                        &lt;img src="images/prints/1-4.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/1-5.jpg"&gt;"King Dom" &lt;span class="span3"&gt;18'' x 14'' &lt;/span&gt;Screen Print, 2013&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/1-5.jpg"&gt;
+                                        &lt;img src="images/prints/1-5.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/1-6.jpg"&gt;"You Are What You Eat" &lt;span class="span3"&gt;11'' x 8'' &lt;/span&gt;Screen Print, 2013&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/1-6.jpg"&gt;
+                                        &lt;img src="images/prints/1-6.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/1-7.jpg"&gt;"State of Mind" &lt;span class="span3"&gt;10'' x 8'' &lt;/span&gt;Screen Print, 2013&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/1-7.jpg"&gt;
+                                        &lt;img src="images/prints/1-7.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                
+                        
+                        
+                          &lt;/div&gt;
+                          &lt;a href="#" class="myButtons previousButton" id="previousButton4"&gt;&lt;/a&gt;
+                          &lt;a href="#" class="myButtons nextButton" id="nextButton4"&gt;&lt;/a&gt;
+                        &lt;/div&gt;
+                      
+                      &lt;!--&lt;div class="scroll"&gt;
+                       &lt;a href="images/prints/fma1-1.jpg" class="group5"&gt; &lt;img src="images/prints/fma1-1.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                       &lt;a href="images/prints/2-4.jpg" class="group5"&gt; &lt;img src="images/prints/2-4.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                       &lt;a href="images/prints/2-3.jpg" class="group5"&gt; &lt;img src="images/prints/2-3.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                       &lt;a href="images/prints/2-5.jpg" class="group5"&gt; &lt;img src="images/prints/2-5.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                       &lt;a href="images/prints/2-1.jpg" class="group5"&gt; &lt;img src="images/prints/2-1.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                       &lt;a href="images/prints/2-2.jpg" class="group5"&gt; &lt;img src="images/prints/2-2.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                       &lt;a href="images/prints/4-8.jpg" class="group5"&gt; &lt;img src="images/prints/4-8.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                      &lt;/div&gt;--&gt;
+                      
+                      &lt;div id='mySwipe5' class='swipe span1'&gt;
+                      	&lt;div class='swipe-wrap'&gt;
+                       		 	&lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/fma1-1.jpg"&gt;"Aquemini Gallery Series" &lt;span class="span3"&gt;19'' x 12.5'' &lt;/span&gt;Screen Prints, 2014&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/fma1-1.jpg"&gt;
+                                        &lt;img src="images/prints/fma1-1.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/2-4.jpg"&gt;"Sasquatch on a Bike" 4' x 3' Woodcut, 2014&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/2-4.jpg"&gt;
+                                        &lt;img src="images/prints/2-4.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/2-3.jpg"&gt;"Black Milk Gig Poster" &lt;span class="span3"&gt;20'' x 16'' &lt;/span&gt;Screen Print, 2014&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/2-3.jpg"&gt;
+                                        &lt;img src="images/prints/2-3.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/2-5.jpg"&gt;"Labours of Iron Mike" &lt;span class="span3"&gt;15'' x 11'' &lt;/span&gt;Screen Print, 2014&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/2-5.jpg"&gt;
+                                        &lt;img src="images/prints/2-5.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/2-1.jpg"&gt;"Brave New World" &lt;span class="span3"&gt;11'' x 14'' &lt;/span&gt;Screen Print, 2014&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/2-1.jpg"&gt;
+                                        &lt;img src="images/prints/2-1.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/2-2.jpg"&gt;"Astronaut with a 40" &lt;span class="span3"&gt;15'' x 9'' &lt;/span&gt;Woodcut, 2014&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/2-2.jpg"&gt;
+                                        &lt;img src="images/prints/2-2.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/4-8.jpg"&gt;"Side Characters of Spongebob" &lt;span class="span3"&gt;6'' x 5'' &lt;/span&gt;Window Screen Print, 2014&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/4-8.jpg"&gt;
+                                        &lt;img src="images/prints/4-8.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                
+                        
+                        
+                          &lt;/div&gt;
+                          &lt;a href="#" class="myButtons previousButton" id="previousButton5"&gt;&lt;/a&gt;
+                          &lt;a href="#" class="myButtons nextButton" id="nextButton5"&gt;&lt;/a&gt;
+                        &lt;/div&gt;
+                      
+                      &lt;!--&lt;div class="scroll"&gt;
+                        &lt;a href="images/prints/fma2-1a.jpg" class="group5"&gt;&lt;img src="images/prints/fma2-1a.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                        &lt;a href="images/prints/3-3.jpg" class="group5"&gt;&lt;img src="images/prints/3-3.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                        &lt;a href="images/prints/3-7.jpg" class="group5"&gt;&lt;img src="images/prints/3-7.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                        &lt;a href="images/prints/3-2.jpg" class="group5"&gt;&lt;img src="images/prints/3-2.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                        &lt;a href="images/prints/3-6.jpg" class="group5"&gt;&lt;img src="images/prints/3-6.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                        &lt;a href="images/prints/3-4.jpg" class="group5"&gt;&lt;img src="images/prints/3-4.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                        &lt;a href="images/prints/3-5.jpg" class="group5"&gt;&lt;img src="images/prints/3-5.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                      &lt;/div&gt;--&gt;
+                      
+                      &lt;div id='mySwipe6' class='swipe span1'&gt;
+                      	&lt;div class='swipe-wrap'&gt;
+                       		 	&lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/fma2-1a.jpg"&gt;"Colby Poster Tribute&lt;span class="span3"&gt; Series&lt;/span&gt;" Screen Prints, 2015&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/fma2-1a.jpg"&gt;
+                                        &lt;img src="images/prints/fma2-1a.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/3-3.jpg"&gt;"Saint Logan" &lt;span class="span3"&gt;18'' x 24'' &lt;/span&gt;Screen Print, 2015&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/3-3.jpg"&gt;
+                                        &lt;img src="images/prints/3-3.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/3-7.jpg"&gt;"Cookie Cookie House" &lt;span class="span3"&gt;20'' x 16'' &lt;/span&gt;Mono Print, 2015&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/3-7.jpg"&gt;
+                                        &lt;img src="images/prints/3-7.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/3-2.jpg"&gt;"Soltre Skateboard" &lt;span class="span3"&gt;8'' x 32'' &lt;/span&gt;Screen Print, 2015&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/3-2.jpg"&gt;
+                                        &lt;img src="images/prints/3-2.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/3-6.jpg"&gt;"Superpower" &lt;span class="span3"&gt;13'' x 24'' &lt;/span&gt;Screen Print, 2015&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/3-6.jpg"&gt;
+                                        &lt;img src="images/prints/3-6.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/3-4.jpg"&gt;"National Anthem" &lt;span class="span3"&gt;Poster Size 14'' x 24'' &lt;/span&gt;Screen Print, 2015&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/3-4.jpg"&gt;
+                                        &lt;img src="images/prints/3-4.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/3-5.jpg"&gt;"Sasquatch on a Bike" &lt;span class="span3"&gt;Shirt Size 20'' x 14'' &lt;/span&gt;Woodcut, 2015&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/3-5.jpg"&gt;
+                                        &lt;img src="images/prints/3-5.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                
+                        
+                        
+                          &lt;/div&gt;
+                          &lt;a href="#" class="myButtons previousButton" id="previousButton6"&gt;&lt;/a&gt;
+                          &lt;a href="#" class="myButtons nextButton" id="nextButton6"&gt;&lt;/a&gt;
+                        &lt;/div&gt;
+                      
+                      &lt;!--&lt;div class="scroll"&gt;
+                        &lt;a href="images/prints/4-10.jpg" class="group5"&gt;&lt;img src="images/prints/4-10.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                        &lt;a href="images/prints/4-5.jpg" class="group5"&gt;&lt;img src="images/prints/4-5.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                        &lt;a href="images/prints/4-9.jpg" class="group5"&gt;&lt;img src="images/prints/4-9.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                        &lt;a href="images/prints/4-4.jpg" class="group5"&gt;&lt;img src="images/prints/4-4.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                        &lt;a href="images/prints/4-3.jpg" class="group5"&gt;&lt;img src="images/prints/4-3.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                        &lt;a href="images/prints/4-2.jpg" class="group5"&gt;&lt;img src="images/prints/4-2.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                        &lt;a href="images/prints/4-1.jpg" class="group5"&gt;&lt;img src="images/prints/4-1.jpg" alt="Portfolio img"&gt;&lt;/a&gt;
+                      &lt;/div&gt;--&gt;
+                      
+                      &lt;div id='mySwipe7' class='swipe span1'&gt;
+                      	&lt;div class='swipe-wrap'&gt;
+                       		 	&lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/4-10.jpg"&gt;"GluePac" &lt;span class="span3"&gt;32'' x 19'' &lt;/span&gt;Screen Print, 2015&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/4-10.jpg"&gt;
+                                        &lt;img src="images/prints/4-10.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/4-5.jpg"&gt;"Power Ranger Lowrider" &lt;span class="span3"&gt;17'' x 14'' &lt;/span&gt;Screen Print, 2015&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/4-5.jpg"&gt;
+                                        &lt;img src="images/prints/4-5.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/4-9.jpg"&gt;"School Spirit Skull" &lt;span class="span3"&gt;15'' x 15'' &lt;/span&gt;Woodcut, 2015&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/4-9.jpg"&gt;
+                                        &lt;img src="images/prints/4-9.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/4-4.jpg"&gt;"Padre Pio"&lt;span class="span3"&gt; 20'' x 16''&lt;/span&gt; Mono Print, 2015&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/4-4.jpg"&gt;
+                                        &lt;img src="images/prints/4-4.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/4-3.jpg"&gt;"Between the Bun" &lt;span class="span3"&gt;14'' x 11'' &lt;/span&gt;Screen Print&lt;span class="span3"&gt; on Mylar&lt;/span&gt;, 2015&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/4-3.jpg"&gt;
+                                        &lt;img src="images/prints/4-3.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/4-2.jpg"&gt;"Pho Funk - Lion" &lt;span class="span3"&gt;Drawing by Sam BK, 24'' x 18'' &lt;/span&gt;Screen Print, 2015&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/4-2.jpg"&gt;
+                                        &lt;img src="images/prints/4-2.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                &lt;div&gt;
+                                    &lt;div class="image_title"&gt;
+                                        &lt;a class="group5" href="images/prints/nowhitespace/4-1.jpg"&gt;"Pho Funk - Bull Dog" &lt;span class="span3"&gt;Drawing by Sam BK, 24'' x 18'' &lt;/span&gt;Screen Print, 2015&lt;/a&gt;
+                                    &lt;/div&gt;
+                                    &lt;a class="group6" href="images/prints/nowhitespace/4-1.jpg"&gt;
+                                        &lt;img src="images/prints/4-1.jpg"/&gt;
+                                    &lt;/a&gt;
+                                &lt;/div&gt;
+                                
+                        
+                        
+                          &lt;/div&gt;
+                          &lt;a href="#" class="myButtons previousButton" id="previousButton7"&gt;&lt;/a&gt;
+                          &lt;a href="#" class="myButtons nextButton" id="nextButton7"&gt;&lt;/a&gt;
+                        &lt;/div&gt;
+                     
+                    &lt;/div&gt;
+                &lt;/div&gt;
+              	&lt;/div&gt;
+              
+              	
+            	&lt;div id="self"&gt;
+               	
+                &lt;h2 class="location3"&gt;SELF&lt;br/&gt;BRANDING&lt;/h2&gt;
+                
+                &lt;div id="logo" class="finalSection"&gt;
+                  &lt;div id="domface"&gt;&lt;/div&gt;
+                  &lt;p&gt;When I was 16 I came up with my first graphic. It was my face, it seemed like a good place to start off making graphics. I spray painted it on shirts and gave them out to friends when I was running for student council in high school. I won and attribute it to my "Vote for Dominic" shirts and logo.&lt;/p&gt;
+                &lt;/div&gt;
+                
+                
+                  
+                  &lt;div id="stickers" class="finalSection"&gt;
+                      &lt;h3&gt;Logo Application&lt;/h3&gt;
+                      &lt;p&gt;Since 2011 I've been designing stickers using my logo and putting the designs on all sorts of different graphic applications. Below is all 20 different designs, all abiding to the same size and color restraints.&lt;/p&gt;
+                      &lt;!--&lt;div class="scroll span2"&gt;
+                        &lt;img src="images/domface/domface20.jpg"&gt;
+                        &lt;img src="images/domface/domface19.jpg"&gt;
+                        &lt;img src="images/domface/domface17.jpg"&gt;
+                        &lt;img src="images/domface/domface16.gif"&gt;
+                        &lt;img src="images/domface/domface15.jpg"&gt;
+                        &lt;img src="images/domface/domface14.jpg"&gt;
+                        &lt;img src="images/domface/domface13.jpg"&gt;
+                        &lt;img src="images/domface/domface12.jpg"&gt;
+                        &lt;img src="images/domface/domface11.jpg"&gt;
+                        &lt;img src="images/domface/domface10.jpg"&gt;
+                        &lt;img src="images/domface/domface9.jpg"&gt;
+                        &lt;img src="images/domface/domface8.jpg"&gt;
+                        &lt;img src="images/domface/domface7.png"&gt;
+                        &lt;img src="images/domface/domface6.png"&gt;
+                        &lt;img src="images/domface/domface5.png"&gt;
+                        &lt;img src="images/domface/domface4.png"&gt;
+                        &lt;img src="images/domface/domface3.png"&gt;
+                        &lt;img src="images/domface/domface2.png"&gt;
+                        &lt;img src="images/domface/domface1.png"&gt;
+                        
+        
+                      &lt;/div&gt;--&gt;
+                      
+                       &lt;div id='mySwipe8' class='swipe'&gt;
+                      	&lt;div class='swipe-wrap'&gt;
+                                &lt;div&gt;&lt;img src="images/domface/domface20.jpg"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domface/domface19.jpg"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domface/domface17.jpg"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domface/domface16.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domface/domface14.jpg"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domface/domface13.jpg"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domface/domface10.jpg"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domface/domface9.jpg"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domface/domface8.jpg"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domface/domface7.png"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domface/domface6.png"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domface/domface5.png"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domface/domface4.png"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domface/domface3.png"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domface/domface2.png"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domface/domface1.png"&gt;&lt;/div&gt;
+                          &lt;/div&gt;
+                          &lt;a href="#" class="myButtons previousButton" id="previousButton8"&gt;&lt;/a&gt;
+                          &lt;a href="#" class="myButtons nextButton" id="nextButton8"&gt;&lt;/a&gt;
+                        &lt;/div&gt;
+                  &lt;/div&gt;
+                  
+                  &lt;div id="motionGraphics2" class="finalSection"&gt;
+                  	&lt;h3&gt;Motion Graphics&lt;/h3&gt;
+                    	&lt;p&gt;In preparation for making this website I wanted to practice my motion graphics. I came up with a system for putting my logo on old clip art, animating the characters, and I made 25 in the week over Christmas and new years.&lt;/p&gt;
+                    	&lt;!--&lt;div class="scroll2"&gt;
+                        &lt;img src="images/domfacemotion/s13.gif"&gt;
+                        &lt;img src="images/domfacemotion/a1.gif"&gt;
+                        &lt;img src="images/domfacemotion/a2.gif"&gt;
+                        &lt;img src="images/domfacemotion/a3.gif"&gt;
+                        &lt;img src="images/domfacemotion/a4.gif"&gt;
+                        &lt;img src="images/domfacemotion/a5.gif"&gt;
+                        &lt;img src="images/domfacemotion/a6.gif"&gt;
+                        &lt;img src="images/domfacemotion/a7.gif"&gt;
+                        &lt;img src="images/domfacemotion/s1.gif"&gt;
+                        &lt;img src="images/domfacemotion/s2.gif"&gt;
+                        &lt;img src="images/domfacemotion/s4.gif"&gt;
+                        &lt;img src="images/domfacemotion/s5.gif"&gt;
+                        &lt;img src="images/domfacemotion/s6.gif"&gt;
+                        &lt;img src="images/domfacemotion/s7.gif"&gt;
+                        &lt;img src="images/domfacemotion/s8.gif"&gt;
+                        &lt;img src="images/domfacemotion/s9.gif"&gt;
+                        &lt;img src="images/domfacemotion/s10.gif"&gt;
+                        &lt;img src="images/domfacemotion/s14.gif"&gt;
+                        &lt;img src="images/domfacemotion/s15.gif"&gt;
+                        &lt;img src="images/domfacemotion/s16.gif"&gt;
+                        &lt;img src="images/domfacemotion/z1.gif"&gt;
+                        &lt;img src="images/domfacemotion/z2.gif"&gt;
+                        &lt;img src="images/domfacemotion/z3.gif"&gt;
+                        &lt;img src="images/domfacemotion/s12.gif"&gt;
+        
+                      &lt;/div&gt;--&gt;
+                      
+                       &lt;div id='mySwipe9' class='swipe'&gt;
+                      	&lt;div class='swipe-wrap'&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/s13.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/a1.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/a2.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/a3.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/a4.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/a5.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/a6.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/a7.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/s1.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/s2.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/s4.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/s5.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/s6.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/s7.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/s8.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/s9.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/s10.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/s14.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/s15.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/s16.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/z1.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/z2.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/z3.gif"&gt;&lt;/div&gt;
+                                &lt;div&gt;&lt;img src="images/domfacemotion/s12.gif"&gt;&lt;/div&gt;
+                          &lt;/div&gt;
+                          &lt;a href="#" class="myButtons previousButton" id="previousButton9"&gt;&lt;/a&gt;
+                          &lt;a href="#" class="myButtons nextButton" id="nextButton9"&gt;&lt;/a&gt;
+                        &lt;/div&gt;
+                  &lt;/div&gt;
+                  
+                  &lt;div id="websiteItself" class="finalSection"&gt;
+                      &lt;h3&gt;DomWright.com&lt;/h3&gt;
+                      &lt;p&gt;Featuring in-browser motion graphics, fully responsive designs, 5 unique galleries across super custom layouts and styles, DomWright.com proudly displays the efforts of Dominic Wright's profile work. Here's a jumble of the raw code if you'd like to run an offline version of the site yourself.&lt;/p&gt;
+                  	&lt;div id="tabGallery"&gt;
+                      &lt;ul class="nav nav-tabs"&gt;
+                        &lt;li class="active"&gt;
+                            &lt;a href="#tab1"&gt;HTML&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a href="#tab2"&gt;CSS&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a href="#tab3"&gt;JavaScript&lt;/a&gt;
+                        &lt;/li&gt;
+                      &lt;/ul&gt;	
+                      &lt;/div&gt;
+                      
+                      &lt;section id="tab1" class="tab-content active"&gt;
+                        &lt;div&gt;
+                            Content in tab 1
+                        &lt;/div&gt;
+                      &lt;/section&gt;
+                      &lt;section id="tab2" class="tab-content hide"&gt;
+                        &lt;div&gt;
+                            Content in tab 2
+                        &lt;/div&gt;
+                      &lt;/section&gt;
+                      &lt;section id="tab3" class="tab-content hide"&gt;
+                        &lt;div&gt;
+                            Content in tab 3
+                        &lt;/div&gt;
+                      &lt;/section&gt;
+                  &lt;/div&gt;
+                  
+               &lt;/div&gt;
+               &lt;div id="footer"&gt;
+               	
+                	&lt;div id="thankyou"&gt;&lt;/div&gt;
+                	&lt;p&gt;I appreciate you viewing my work. If you have any questions or comments, feel free to contact me below. There's also a link to my resume and links to the previous sections of this website.&lt;br/&gt;&lt;br/&gt;Thanks again,&lt;br/&gt;&amp;nbsp; &lt;br/&gt;&amp;nbsp; &lt;br/&gt;-Dominic Wright&lt;/p&gt;
+                   
+                   &lt;div id="form"&gt;
+                       &lt;form action="http://mailthis.to/Dominic" method="post"&gt;
+                          &lt;div&gt;
+                            &lt;input type="email" name="email" id="name" placeholder="email address" /&gt;
+                            &lt;input type="text" name="_honey" value="" style="display:none"&gt;
+    
+                          &lt;/div&gt;
+                          
+                          &lt;br&gt;
+                          &lt;div&gt;
+                            &lt;br&gt;
+                            &lt;textarea cols="40" rows="8" name="message" placeholder="message" id="message"&gt;&lt;/textarea&gt;
+                          &lt;/div&gt;
+                          
+                          &lt;div&gt;
+                            
+  								&lt;input class="button" value="SEND" type="submit" /&gt;
+                          &lt;/div&gt;
+                        &lt;/form&gt;
+                    &lt;/div&gt;
+						
+                    &lt;span class="span2"&gt;&lt;a href="Wright_Dominic_Resume.pdf" target="_blank" id="resume"&gt;RESUME&lt;/a&gt;&lt;/span&gt;    
+                    
+                    &lt;nav&gt;
+                      &lt;span class="span1"&gt;&lt;a href="Wright_Dominic_Resume.pdf" target="_blank" id="resume2"&gt;RESUME&lt;/a&gt;&lt;/span&gt;    
+
+                    	&lt;a href="#webDesign"&gt;websites&lt;/a&gt;&lt;span class="span1"&gt;&lt;br/&gt;&lt;/span&gt;
+                      &lt;a href="#motionGraphics"&gt;motion graphics&lt;/a&gt;&lt;span class="span1"&gt;&lt;br/&gt;&lt;/span&gt;
+                      &lt;a href="#stuff"&gt;stuff &amp; things&lt;/a&gt;&lt;span class="span1"&gt;&lt;br/&gt;&lt;/span&gt;
+                      &lt;a href="#internships"&gt;internships&lt;/a&gt;&lt;span class="span1"&gt;&lt;br/&gt;&lt;/span&gt;
+                      &lt;a href="prints"&gt;prints&lt;/a&gt;&lt;span class="span1"&gt;&lt;br/&gt;&lt;/span&gt;
+                      &lt;a href="self" id="last"&gt;self branding&lt;/a&gt;&lt;span class="span1"&gt;&lt;br/&gt;&lt;/span&gt;
+                     &lt;/nav&gt;
+                     
+                     &lt;!--&lt;a href="#intro" id="reset"&gt;RESET&lt;/a&gt;--&gt;
+               &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div id="loading"&gt;&lt;/div&gt;
+        &lt;script type="text/javascript" src="js/custom_behaviors.js"&gt;&lt;/script&gt;
+        &lt;script type="text/javascript" src="js/swipe.js"&gt;&lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;

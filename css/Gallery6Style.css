@@ -1,0 +1,101 @@
+
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+    border-top:10px solid black;
+    border-bottom:10px solid black;
+	z-index:2;
+}
+
+	.swipe-wrap img{
+		height:auto;
+		width:100%;
+		max-width:100%;
+		display:block;
+	}
+	
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+
+.myButtons{
+	display:block;
+	width:40px;
+	height:40px;
+	background-color:#fff;	
+	border:10px solid black;
+	border-top:0px;
+}
+
+	.previousButton{
+		float:left;	
+		background-image:url(../images/left-black.png);
+		background-size:cover;
+	}
+		.previousButton:hover{
+					background-image:url(../images/left-red.png);
+		}
+	.nextButton{
+		float:right;	
+		background-image:url(../images/right-black.png);
+		background-size:cover;
+
+	}
+	
+		.nextButton:hover{
+					background-image:url(../images/right-red.png);
+		}
+		
+		
+		
+		
+		
+#mySwipe8{
+	max-width:315px;
+	margin-left:auto;
+	margin-right:auto;
+	border-bottom:none;
+}
+
+	#mySwipe8 .swipe-wrap{
+		border-bottom:none;
+		border-top:none;
+		width:100%;
+	}
+	
+	#mySwipe8 .myButtons{
+		border-top:10px solid black;	
+	}
+	
+	
+#mySwipe9{
+	max-width:315px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+	#mySwipe9 .swipe-wrap{
+		border-top:0px solid black;
+		border-bottom:0px ;
+	}
+	
+	#mySwipe9 .myButtons{
+		border-top:10px solid black;	
+	}
+	
+	
+	#self .myButtons{
+						margin-top:-10px;	
+					}
+	@media only screen and (max-width: 400px){
+		
+	}

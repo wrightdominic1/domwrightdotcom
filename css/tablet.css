@@ -1,0 +1,448 @@
+
+
+/* TABLET STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 600px) and (max-width: 800px){
+	#container{
+	}
+	
+	span{
+	}
+		.span1{
+			display:inherit;
+			line-height:0px;
+		}
+		
+		.span2{
+			display:none;	
+		}
+		
+		.span3{
+			display:inline;	
+		}
+		
+		.span4{
+			display:none;	
+		}
+		.accordian{
+			display:none;
+		}
+		
+	h1{
+		font-size:75px;	
+	}
+	
+	h2{
+		font-size:45px;	
+	}
+		.location1{
+			font-size:135px;
+		}
+		
+		
+		
+		.location3{
+			font-size:90px;	
+		
+		}
+	
+	h3{
+		font-size:35px;
+		margin-left:15px;	
+	}
+	
+	#red{
+	}
+	
+			/*Image title styles*/
+			.image_title {
+				width: 100%;	
+			}
+			
+			.image_title a {
+				
+				font-size: 12px;
+			}
+	
+	
+	#okanjo{
+			width:100%;	
+			background-color:black;
+			position:absolute;
+			margin-left:-10px;
+		}
+			
+			#okanjoRight{
+				width:50%;	
+				height:100%;
+			}
+			
+			#okanjoP{
+				text-size:12px;
+				width:90%;
+				height:auto;
+				margin-left:auto;
+				margin-right:auto;
+				float:none;
+			}
+			
+			#okanjo h3{
+				width:95%;	
+			}
+			
+			#galleryLeft{
+				float:none;
+					
+			}
+			
+				#galleryLeft .current-image-wrapper {
+				  background-position: 50% 50%;
+					width:44.8%;
+				
+				}
+				#galleryLeft .current-image-wrapper img {
+				  max-width: 404px;
+				  width:100%;
+					height:auto;
+				
+				  margin: 0 auto;
+				 
+				}
+				
+				#galleryLeft .current-image-wrapper .hideme {
+				  background-position: 50% 50%;
+				  transition: opacity .1s;
+				}
+				
+				#galleryLeft .thumbnails{
+					width:50%;
+					background-color:black;
+				}
+				
+				#galleryLeft .thumbnails li, .thumbnails a  {
+				  display: inline-block;
+				  width: 37%;
+				  height: auto;
+				  margin-right:-8%;
+				  margin-bottom:0px;
+				  border: none;
+				}
+				
+				
+					.thumbnails img {
+						border:solid black 10px;
+						display: inline-block;
+						  width: 200%;
+						  height: auto;
+				  		margin-right:-8%;
+						  margin-bottom:0px;
+					}
+					
+					
+	#dbp{
+		
+		width:100%;
+		top:610px;
+		position:absolute;
+		background-color:black;
+		margin-left:-10px;
+	}
+	
+	#galleryRight{
+	width:47%;
+	}
+	
+	
+	#driveByLeft{
+		float:left;
+		display:block;
+		width:50%;
+	}
+	
+		#dbpP{
+			width:90%;
+			height:auto;
+			float:left;
+			color:#000;
+			padding-left:10px;
+			padding-right:20px;
+			font-size:14px;
+			line-height:18px;
+		}
+		
+		#dbp h3{
+			width:100%;
+			margin-left:-5px;
+		}
+		
+		#galleryRight{
+				float:right;	
+				width:46.5%;
+
+			}
+			
+				#galleryRight .current-image-wrapper2 {
+				  background-position: 50% 50%;
+					width:100%;
+				
+				}
+				#galleryRight .current-image-wrapper2 img {
+				  max-width: 404px;
+				  width:100%;
+					height:auto;
+				
+				  margin: 0 auto;
+				 
+				}
+				
+				#galleryRight .current-image-wrapper .hideme {
+				  background-position: 50% 50%;
+				  transition: opacity .1s;
+				}
+				
+				#galleryRight .thumbnails2{
+					width:105%;
+					background-color:black;
+				}
+				
+				#galleryRight .thumbnails2 li, .thumbnails2 a  {
+				  display: inline-block;
+				  width: 37%;
+				  height: auto;
+				  margin-right:-8%;
+				  margin-bottom:0px;
+				  border: none;
+				}
+				
+				
+					.thumbnails2 img {
+						border:solid black 10px;
+						display: inline-block;
+						  width: 200%;
+						  height: auto;
+				  		margin-right:-8%;
+						  margin-bottom:0px;
+					}
+					
+	.location2{
+		font-size:130px;	
+	}		
+	
+		#printMaking img{
+			width:auto;	
+		}
+	
+	
+		#allcontentMobile{
+				margin-top:200px;
+			}
+			
+				#allcontentMobile .scroll{
+					z-index:2;
+					float:left;
+					position:relative;
+					margin-bottom:115px;
+				}
+	
+				#allcontentMobile .swipe{
+					max-width:540px;	
+					margin-top:90px;
+					margin-left:auto;
+					margin-right:auto;
+					border-left:10px black solid;
+				}
+				
+				#black .previousButton{
+					margin-left:-10px;
+				}
+					
+				#black .nextButton{
+					margin-right:-10px;
+				}
+				
+		
+		
+		
+			
+					
+		#self{
+	}
+	
+			#self h3{
+				font-size:30px;	
+				margin-left:20px;
+			}
+		#logo p{
+			width: 90%;
+			max-width:400px;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		
+		
+		
+	
+
+	#stickers{
+		
+		width:100%;
+		
+	}
+		#stickers p{
+			width:90%;
+			max-width:385px;
+			margin-left:20px;
+		}
+		
+		.scroll {
+			width:100%;
+			margin-left:-10px;
+			margin-right:0px;
+			
+		}
+		
+		
+		
+	#motionGraphics2{
+		top:2000px;
+		
+		width:100%;
+		margin-left:0px;
+		margin-right:0px;
+	}	
+		#motionGraphics2 p{
+			width:90%;
+			max-width:385px;
+			margin-left:20px;
+		}
+	
+		.scroll2 {
+			width:97.5%;
+			margin-left:-10px;
+			margin-right:0px;
+		}
+		
+		
+		
+	#websiteItself{
+		top:2780px;
+		position:absolute;
+		left:0;
+		right:0;
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+		#websiteItself p{
+			width:90%;
+			max-width:385px;
+			margin-left:20px;
+		}
+		
+		
+		
+		#tabGallery{
+			width:100%;
+			border:5px black solid;
+				margin-left:-10px;
+			margin-right:auto;	
+			background-color:#fff;
+		}
+				
+				.nav-tabs > li {
+				  float: left;
+				  				  width:31.5%;
+
+				}
+	
+				.nav-tabs > li > a {
+				  padding-right: 12px;
+				  padding-left: 12px;
+				  padding-top:12px;
+				  margin-right: 2px;
+				  height:30px;
+				  background-color:#fff;
+				}
+	
+	
+				
+				
+				#websiteItself li {
+				  line-height: 18px;
+				  border:5px solid black;
+				}
+	
+	
+				
+				.tab-content.active{
+					
+					width:100%;
+					height:200px;
+					
+					margin-left:-10px;
+					margin-right:auto;	
+					
+				}
+				
+				.tab-content.hide{
+					display: none;
+				}
+			
+		#footer{
+			width:100%;	
+		}
+			
+			
+			#footer p{
+				width:80%;
+				max-width:370px;
+				margin-left:auto;
+				margin-right:auto;
+				font-size:13px;
+			}
+			
+			#form{
+				position:relative;
+				width:100%;	
+			}
+			
+			nav{
+				text-align:center;
+				line-height:30px;	
+				width:100%;
+			}
+				nav a{
+					margin-right:0px;	
+				}
+				nav #last{
+					margin-right:0px;	
+				}
+				
+			#resume2{
+				background-color:red;
+				display:inline-block;
+				line-height:60px;
+				height:60px;
+				width:200px;
+				text-align:center;
+				color:white;
+				margin-bottom:75px;
+				text-decoration:none;
+				text-transform:uppercase;
+				
+			}
+			
+				#resume2:hover{
+					color:black;	
+				}
+			
+				
+				#red .previousButton{
+					margin-left:-10px;
+				}
+					
+				#red .nextButton{
+					margin-right:10px;
+				}
+				
+}

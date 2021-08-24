@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'gotham_blackregular';
+    src: url(../fonts/gotham-black-webfont.eot);
+    src: url(../fonts/gotham-black-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/gotham-black-webfont.woff2) format('woff2'),
+         url(../fonts/gotham-black-webfont.woff) format('woff'),
+         url(../fonts/gotham-black-webfont.ttf) format('truetype'),
+         url(../fonts/gotham-black-webfont.svg#gotham_blackregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gothammedium';
+    src: url(../fonts/gotham-medium-webfont.eot);
+    src: url(../fonts/gotham-medium-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/gotham-medium-webfont.woff2) format('woff2'),
+         url(../fonts/gotham-medium-webfont.woff) format('woff'),
+         url(../fonts/gotham-medium-webfont.ttf) format('truetype'),
+         url(../fonts/gotham-medium-webfont.svg#gothammedium) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+#container{
+	margin-left:auto;
+	margin-right:auto;
+	width:805px;
+	background-color:#fff;
+}
+
+h1{
+	text-align:left;	
+    font-family: 'gotham_blackregular';
+	color:black;
+	font-size:60px;
+	text-align:left;	
+	margin-bottom:10px;		
+}
+h2{
+	text-align:left;	
+    font-family: 'gotham_blackregular';
+	color:red;
+	font-size:40px;		
+	padding:10px;
+}
+
+p{
+    font-family: 'gothammedium';
+	text-align:left;	
+	padding-left:10px;
+
+}
+
+
+.thumbnails{
+	width:805px;
+	margin-left:20px;
+	margin-top:15px;
+}
+
+
+	.thumbnails li:nth-child(5n){
+		margin-right:0px;	
+	}
+
+
+
+
+
+
+html { min-height: 100%; background: #fff; }
+.gallery { text-align: center; }
+.current-image-wrapper {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  margin-top:20px;
+}
+.current-image-wrapper2 {
+  max-width:600px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.current-image-wrapper img {
+  display: block;
+  max-width: 100%;
+  margin-left:  auto;
+  maregin-right:auto;
+  opacity: 1;
+  transition: opacity 1.85s;
+    border:10px solid black;
+
+}
+.current-image-wrapper .hideme {
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+#large{
+	max-width:600px;	
+}
+.thumbnails li, .thumbnails a, .thumbnails img {
+  display:block;
+  float:left;
+  width: 149px;
+  height: 116px;
+  margin-bottom:10px;
+}
+
+.thumbnails li {   
+	outline: 5px solid black;
+	  margin-right:10px;
+
+ }
+
+/* TABLET STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 600px) and (max-width: 800px){
+	h1{
+		font-size:22px;
+		margin-top:10px;
+	}
+	
+	h2{
+		font-size:20px;
+	}
+	
+	p{
+		font-size:14px;	
+	}
+	
+}
+
+ 
+ /* MOBILE STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (max-width: 600px){
+	h1{
+		font-size:20px;
+				margin-top:10px;
+
+	}
+	
+	h2{
+		font-size:20px;
+		margin-top:10px;
+	}
+	
+	p{
+font-size:12px;
+		line-height:15px;	}
+}
+
+
