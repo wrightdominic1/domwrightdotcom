@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'gotham_blackregular';
+    src: url(../fonts/gotham-black-webfont.eot);
+    src: url(../fonts/gotham-black-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/gotham-black-webfont.woff2) format('woff2'),
+         url(../fonts/gotham-black-webfont.woff) format('woff'),
+         url(../fonts/gotham-black-webfont.ttf) format('truetype'),
+         url(../fonts/gotham-black-webfont.svg#gotham_blackregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gothammedium';
+    src: url(../fonts/gotham-medium-webfont.eot);
+    src: url(../fonts/gotham-medium-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/gotham-medium-webfont.woff2) format('woff2'),
+         url(../fonts/gotham-medium-webfont.woff) format('woff'),
+         url(../fonts/gotham-medium-webfont.ttf) format('truetype'),
+         url(../fonts/gotham-medium-webfont.svg#gothammedium) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+#container{
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+
+#top, #bottom, #left, #right {
+	background: #000;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 10px;
+			position: fixed;
+
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 10px;
+		position:absolute;
+		}
+		#top { top: 0;}
+		#bottom { bottom: 0; }
+
+h1{
+	text-align:center;
+    font-family: 'gotham_blackregular';
+	font-size:50px;
+	padding-top:30px;
+}
+
+#domface{
+	height:495px;
+	width:600px;
+	background-image:url(../images/scientist.gif);
+	display:block;
+	background-size:cover;
+	margin-left:auto;
+	margin-right:auto;	
+	margin-top:10px;
+}
+
+p{
+	font-family: 'gothammedium';
+	width:750px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:20px;
+	font-size:16px;
+		line-height:20px;
+}
+
+ul{
+	width:750px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+	li{
+		height:250px;
+		float:left;	
+
+	}
+	
+	.results{
+		width:230px;
+		height:200px;
+		display:block;
+		background-color:red;
+		border:10px solid black;
+	}
+	
+		#week1{
+			background-image:url(../images/REPLACEMENTWORDS.png);	
+		}
+	
+		#week2{
+			background-image:url(../images/splashpage.png);	
+	
+		}
+		
+			#week2:hover > #label2{
+				background-color:yellow;	
+			}
+		
+		#week3{
+			background-image:url(../images/multiversetheory.png);	
+		}
+	
+	.label{
+		height:60px;
+		display:block;
+		border:10px solid black;
+		font-family: 'gothammedium';
+		padding:5px;
+		color:#000;
+		font-size:16px;
+		line-height:20px;
+	}
+	
+		#label1:hover{
+			color:#f00;
+		}
+		
+		#week1:hover~#label1{
+			color:#f00;	
+		}
+		
+		#label2:hover{
+			color:#f00;	
+		}
+		
+		#week2:hover~#label2{
+			color:#f00;	
+		}
+		
+		#label3:hover{
+			color:#f00;	
+		}
+		
+		#week3:hover ~ #label3{
+			color:#f00;	
+		}
+		
+	#deadSpace{
+		height:100px;
+		width:100%;
+		display:block;	
+		clear:both;
+	}
+	
+	
+/* MOBILE STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (max-width: 767px){
+	#container{
+		width:87.5%; /* 280 pixels at a 320 pixel screen width (iPhones) */
+	}
+	
+	#top, #bottom, #left, #right {
+	display:none;	}
+	
+	h1{
+		font-size:48px;	
+	}
+	
+	ul{
+		width:740px;	
+	}
+	
+	.results{
+		width:226px;
+		height:200px;
+		
+		background-color:red;
+	}
+}
