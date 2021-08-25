@@ -8,7 +8,6 @@
          url(../fonts/gotham-black-webfont.svg#gotham_blackregular) format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -21,166 +20,194 @@
          url(../fonts/gotham-medium-webfont.svg#gothammedium) format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
-#container{
-	margin-left:auto;
-	margin-right:auto;
-	position:relative;
+html,body{
+	height:100%;	
 }
 
-#top, #bottom, #left, #right {
-	background: #000;
+html, body:before, html,  body:after {
+    content: "";
+    position: fixed;
+    background: #000;
+    left: 0;
+    right: 0;
+    height: 10px;
+}
+	html, body:before {
+		top: 0;
 	}
-	#left, #right {
-		top: 0; bottom: 0;
-		width: 10px;
-			position: fixed;
-
-		}
-		#left { left: 0; }
-		#right { right: 0; }
-		
-	#top, #bottom {
-		left: 0; right: 0;
-		height: 10px;
-		position:absolute;
-		}
-		#top { top: 0;}
-		#bottom { bottom: 0; }
-
-h1{
-	text-align:center;
-    font-family: 'gotham_blackregular';
-	font-size:50px;
-	padding-top:30px;
-}
-
-#domface{
-	height:495px;
-	width:600px;
-	background-image:url(../images/scientist.gif);
-	display:block;
-	background-size:cover;
-	margin-left:auto;
-	margin-right:auto;	
-	margin-top:10px;
-}
-
-p{
-	font-family: 'gothammedium';
-	width:750px;
-	margin-left:auto;
-	margin-right:auto;
-	margin-bottom:20px;
-	font-size:16px;
-		line-height:20px;
-}
-
-ul{
-	width:750px;
-	margin-left:auto;
-	margin-right:auto;
-	
-}
-
-	li{
-		height:250px;
-		float:left;	
-
+	html, body:after {
+		bottom: 0;
+	}
+	html, body {
+		border-left: 10px solid #000;
+		border-right: 10px solid #000;  
 	}
 	
-	.results{
-		width:230px;
-		height:200px;
-		display:block;
-		background-color:red;
-		border:10px solid black;
-	}
-	
-		#week1{
-			background-image:url(../images/REPLACEMENTWORDS.png);	
-		}
-	
-		#week2{
-			background-image:url(../images/splashpage.png);	
-	
-		}
-		
-			#week2:hover > #label2{
-				background-color:yellow;	
-			}
-		
-		#week3{
-			background-image:url(../images/multiversetheory.png);	
-		}
-	
-	.label{
-		height:60px;
-		display:block;
-		border:10px solid black;
-		font-family: 'gothammedium';
-		padding:5px;
-		color:#000;
-		font-size:16px;
-		line-height:20px;
-	}
-	
-		#label1:hover{
-			color:#f00;
-		}
-		
-		#week1:hover~#label1{
-			color:#f00;	
-		}
-		
-		#label2:hover{
-			color:#f00;	
-		}
-		
-		#week2:hover~#label2{
-			color:#f00;	
-		}
-		
-		#label3:hover{
-			color:#f00;	
-		}
-		
-		#week3:hover ~ #label3{
-			color:#f00;	
-		}
-		
-	#deadSpace{
-		height:100px;
+	#top{
+		height:10px;
 		width:100%;
-		display:block;	
-		clear:both;
+		position:fixed;
+		background-color:#000;
+		display:block;
+		z-index:100;
+	}
+
+section{
+	height:100%;
+	
+}
+
+marquee{
+	height:100%;	
+}
+
+li{
+	margin-bottom:80px;	
+	text-decoration:none;
+	text-shadow:none;
+	font-family: 'gotham_blackregular';
+
+}
+
+.column{
+	float:left;
+	height:100%;	
+	position:absolute;
+	margin-top:-10px;
+	
+}
+
+.columnHorizontal{
+	float:left;
+	width:100%;	
+	position:absolute;
+}
+
+	#first{
+		z-index:1;
+	}
+	
+	#second{	
+		z-index:2;
+	}
+	
+	#third{
+		z-index:3;
+	}
+	
+	#seventh{
+		position:absolute;
+		bottom:-80px;	
 	}
 	
 	
-/* MOBILE STYLES ////////////////////////////////////////////////////////////////////////////////////////////////*/
-@media only screen and (max-width: 767px){
-	#container{
-		width:87.5%; /* 280 pixels at a 320 pixel screen width (iPhones) */
+/*faceflip*/
+.card {
+        width: 200px;
+        height: 264px;
+      }
+       .back {
+		background-image:url(../images/dom-back.png);
+		background-size:contain;
+		background-repeat:no-repeat;
+		padding:30px;
+      }
+      .front {
+		background-image:url(../images/dom.png);
+		background-size:contain;
+		background-repeat:no-repeat;
+      }
+		
+#myBody #enter{
+	position:absolute;
+	margin-left:40%;		
+	z-index:100;
+	display:block;
+	width:200px;
+	margin-top:200px;
+}
+	
+	#myBody .myButton{
+		display:block;
+		padding:10px;
+		background-color:red;
+		text-align:center;
+		text-decoration:none;
+		font-family: 'gotham_blackregular';
+		color:#fff;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:30px;
 	}
 	
-	#top, #bottom, #left, #right {
-	display:none;	}
+	#myBody a{
+		text-shadow:none;
+	}
+	
+	#myBody a:hover{
+		color:#000;	
+	}
+		
+p{
+	text-shadow:none;	
+	font-family: 'gothammedium';
+	color:#fff;
+}
+
+.backButton{
+	text-align:center;
+	width:85px;
+	height:30px;
+	padding-top:10px;
+	margin-top:20px;
+	display:block;
+	color:red;
+	text-decoration:none;
+	background-color:#fff;	
+	margin-left:auto;
+	margin-right:auto;
+}
+	
+	
+#pageTwoContainer{
+	background-color:red;
+	height:100%;
+	color:#fff;
+}
+	#domFace{
+		margin-left:auto;
+		margin-right:auto;
+		display:block;
+		width: 200px;
+        height: 264px;
+		margin-top:82px;
+	}
 	
 	h1{
-		font-size:48px;	
+		font-family: 'gotham_blackregular';
+		text-align:center;
+		font-size:36px;
+		letter-spacing:2px;
+		line-height:50px;
+		margin-left:auto;
+		margin-right:auto;
+		height:36px;
+		padding-top:82px;
 	}
 	
-	ul{
-		width:740px;	
+	#myBody .myButton2{
+		display:block;
+		padding:10px;
+		background-color:#fff;
+		text-align:center;
+		text-decoration:none;
+		font-family: 'gotham_blackregular';
+		color:red;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:30px;
+		width:200px;
 	}
-	
-	.results{
-		width:226px;
-		height:200px;
-		
-		background-color:red;
-	}
-}
